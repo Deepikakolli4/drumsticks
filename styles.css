@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding: 0px;
-    background-color: peachpuff;
+    background-color:grey;
     font-family: cursive;
     font-size: 40px;
     font-weight: 300;
@@ -13,7 +13,8 @@ h1{
 .container{
     align-items: center;
     justify-items: center;
-    display: flex;
+    display:flex;
+    flex-wrap: nowrap;
     padding: 10%;
 }
 button{
@@ -29,9 +30,13 @@ button{
     margin: 10px;
     font-size: 80px;
     font-weight: 600px;
+    font-style: bold;
     border: none;
     cursor: pointer;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+}
+button:hover{
+    color:goldenrod;
 }
 .Wdrum{
     background-image: url(images/crash.png);

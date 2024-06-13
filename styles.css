@@ -14,8 +14,10 @@ h1{
     align-items: center;
     justify-items: center;
     display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: nowrap;
-    padding: 10%;
 }
 button{
     align-items: center;
@@ -27,7 +29,7 @@ button{
     width: 160px;
     border-radius: 5%;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     font-size: 80px;
     font-weight: 600px;
     font-style: bold;
@@ -78,7 +80,7 @@ p{
     body {
         margin: 0;
         padding: 0;
-        background-color: peachpuff;
+        background-color: grey;
         font-family: cursive;
         font-size: 40px;
         font-weight: 300;
@@ -92,7 +94,10 @@ p{
     .container {
         align-items: center;
         justify-items: center;
-        display: flex;
+        display:flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
         padding: 10%;
     }
     
@@ -163,7 +168,7 @@ p{
     body {
         margin: 0;
         padding: 0;
-        background-color: peachpuff;
+        background-color: grey;
         font-family: cursive;
         font-size: 40px;
         font-weight: 300;
@@ -176,6 +181,10 @@ p{
         align-items: center;
         justify-items: center;
         display: flex;
+        display:flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-between;
         padding: 10%;
     }
     button {
@@ -202,7 +211,7 @@ p{
     body {
         margin: 0;
         padding: 0;
-        background-color: peachpuff;
+        background-color: grey;
         font-family: cursive;
         font-size: 40px;
         font-weight: 300;
@@ -215,6 +224,10 @@ p{
         align-items: center;
         justify-items: center;
         display: flex;
+        display:flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: space-between;
         padding: 10%;
     }
     button {
@@ -242,7 +255,7 @@ p{
     body {
         margin: 0;
         padding: 0;
-        background-color: peachpuff;
+        background-color: grey;
         font-family: cursive;
         font-size: 40px;
         font-weight: 300;
@@ -255,6 +268,10 @@ p{
         align-items: center;
         justify-items: center;
         display: flex;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
         padding: 10%;
     }
     button {

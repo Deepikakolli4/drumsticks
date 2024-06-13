@@ -14,7 +14,9 @@ h1{
     align-items: center;
     justify-items: center;
     display:flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 10%;
 }
 button{
@@ -27,7 +29,7 @@ button{
     width: 160px;
     border-radius: 5%;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     font-size: 80px;
     font-weight: 600px;
     font-style: bold;

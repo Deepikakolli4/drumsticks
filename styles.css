@@ -80,7 +80,7 @@ p{
     body {
         margin: 0;
         padding: 0;
-        background-color: peachpuff;
+        background-color: grey;
         font-family: cursive;
         font-size: 40px;
         font-weight: 300;
@@ -94,7 +94,10 @@ p{
     .container {
         align-items: center;
         justify-items: center;
-        display: flex;
+        display:flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
         padding: 10%;
     }
     
@@ -165,7 +168,7 @@ p{
     body {
         margin: 0;
         padding: 0;
-        background-color: peachpuff;
+        background-color: grey;
         font-family: cursive;
         font-size: 40px;
         font-weight: 300;
@@ -178,6 +181,10 @@ p{
         align-items: center;
         justify-items: center;
         display: flex;
+        display:flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-between;
         padding: 10%;
     }
     button {
@@ -204,7 +211,7 @@ p{
     body {
         margin: 0;
         padding: 0;
-        background-color: peachpuff;
+        background-color: grey;
         font-family: cursive;
         font-size: 40px;
         font-weight: 300;
@@ -217,6 +224,10 @@ p{
         align-items: center;
         justify-items: center;
         display: flex;
+        display:flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: space-between;
         padding: 10%;
     }
     button {
@@ -244,7 +255,7 @@ p{
     body {
         margin: 0;
         padding: 0;
-        background-color: peachpuff;
+        background-color: grey;
         font-family: cursive;
         font-size: 40px;
         font-weight: 300;
@@ -257,6 +268,10 @@ p{
         align-items: center;
         justify-items: center;
         display: flex;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
         padding: 10%;
     }
     button {
